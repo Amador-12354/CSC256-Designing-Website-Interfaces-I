@@ -1,0 +1,36 @@
+body{
+            background-color: #768B78;
+            margin-top: 100px;
+            padding: 0;
+            font-family: fantasy;
+            max-width: 100%;
+        }
+
+        .img-headshot{
+            width: 200px;
+            border-radius: 30px;
+            margin-top: 20px;
+        }
+        div{
+            color: white;
+            font-size: large;
+            margin-bottom: 5px;
+        }
+        header{
+            text-align: center;
+            color: white
+        }
+        h2{
+            color: white;
+        }
+        main{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        @media(max-width: 768px){
+            main{
+                flex-direction: column;
+                align-items: center;
+            }
+        }
