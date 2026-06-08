@@ -1,0 +1,56 @@
+body{
+    background-color: #EFE8D8;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    align-items: center;
+    text-align: center;
+}
+
+#divSlideshow{
+    max-width: 600px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#divSlideshow img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    margin-top: 50px;
+}
+
+.buttonStack{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    z-index: 10;
+}
+
+.buttonStack button{
+    margin-top: 60px;
+    position: relative;
+}
+
+button{
+    background-color: rgba(133, 10, 10, 0.74);
+    color: white;
+    padding: 8px;
+    border: none;
+    font-size: large;
+    margin: 10px;
+    font-weight: bold;
+}
+@media(max-width: 768px){
+    #divSlideshow{
+    max-width: 900px;
+    }
+}

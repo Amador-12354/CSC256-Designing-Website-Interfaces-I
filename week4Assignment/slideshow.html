@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supra Slideshow</title>
+
+    <link rel="stylesheet" href="slideshow_style.css">
+</head>
+<body>
+    <header>
+        <h1>Supra Slideshow</h1>
+    </header>
+    <main>
+        <div id="divSlideshow">
+            <img id="imgSlide" src="" alt="Supra">
+        </div>
+        <div class="buttonStack">
+            <button onclick="prevSlide()">Previous</button>
+            <button onclick="nextSlide()">Next</button>
+        </div>
+    </main>
+
+    <!-- TODO: MOVE TO AN EXETRNAL JS FILE -->
+     <script src="slideshowScript.js"></script>
+    <script>
+        // This will load an image when the page 1st loads up
+        showSlide(currImage);
+    </script>
+</body>
+</html>
