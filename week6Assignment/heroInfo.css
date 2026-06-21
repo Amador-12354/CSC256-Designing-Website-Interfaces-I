@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: peru;
+    color: snow;
+    margin-top: 50px;
+}
+header{
+    font-weight: bolder;
+}
+div{
+    margin-top: 20px;
+    font-size: 20px;   
+}
+button{
+    margin-top: 25px;
+    background-color:indianred;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.heroBox{
+    margin-top: 100px;
+}
+textarea{
+    width: 100%;
+    max-width: 550px;  
+    min-height: 140px; 
+    padding: 12px 14px;  
+    box-sizing: border-box;
+    border: 2px solid wheat;  
+    border-radius: 8px;  
+    font-size: 16px;  
+    line-height: 1.4;
+}
