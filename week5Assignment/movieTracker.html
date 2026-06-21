@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List Tracker</title>
+    <link rel="stylesheet" href="movieTrackerList.css">
+</head>
+<body>
+    <header>The AmaMovie List Tracker</header>
+    <main>
+        <!-- This form should not submit anything -->
+         <div>
+            <label for="txtMovie">Enter the Name of Movie Watched: </label>
+            <!-- This will be where form gets input of user -->
+             <input type="text" id="txtMovie" placeholder="Name of Movie">
+         </div>
+         <!-- By adding 'type="button"' will prevent browser from assuming buttons are submitting something -->
+          <button type="button" onclick="addMovie()">Add Movie</button>
+          <button type="button" onclick="resetMovieList()">Reset List</button>
+          <button type="button" onclick="showMovies()">Display Movies</button>
+          <div id="divMovies">
+            <p id="displayText"></p>
+          </div>
+    </main>
+
+    <script src="movieTrackerList.js"></script>
+</body>
+</html>
